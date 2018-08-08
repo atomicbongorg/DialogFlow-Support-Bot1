@@ -1,0 +1,73 @@
+[
+  {
+    "id": "e114ed4c-bec9-4ee9-9db8-2907e68b7678",
+    "data": [
+      {
+        "text": "current offers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1480692985
+  },
+  {
+    "id": "6eb966f7-787c-43d3-9467-f8da549c6e6e",
+    "data": [
+      {
+        "text": "special price",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1480692985
+  },
+  {
+    "id": "98f9498a-9680-4606-8cc6-f831a99c2b15",
+    "data": [
+      {
+        "text": "what\u0027s the weather ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cdbc2ebb-8382-4ee4-b778-1f5a547c7f62",
+    "data": [
+      {
+        "text": "today",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "\u0027s offer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1480692985
+  },
+  {
+    "id": "5c69004b-2cf6-41c5-aa14-b96271b7c24e",
+    "data": [
+      {
+        "text": "do you have special offers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1480692985
+  }
+]

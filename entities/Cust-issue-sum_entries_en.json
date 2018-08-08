@@ -1,0 +1,21 @@
+[
+  {
+    "value": "Login",
+    "synonyms": [
+      "Unable to login",
+      "Cant login",
+      "Unable to login to",
+      "Having trouble logging in"
+    ]
+  },
+  {
+    "value": "Password",
+    "synonyms": [
+      "password reset",
+      "forgot password",
+      "cant remember my password",
+      "unable to remember password",
+      "forgot my password"
+    ]
+  }
+]

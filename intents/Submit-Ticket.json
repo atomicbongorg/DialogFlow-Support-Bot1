@@ -1,0 +1,147 @@
+{
+  "id": "d347d47b-d268-45cd-afbe-bedf81e5f2ca",
+  "name": "Submit-Ticket",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Submit-Ticket-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "14f0850f-e620-4350-b4e9-c2ccfc0dd3c1",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "cust-name",
+          "value": "$sys.given-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Could you please tell me your name?"
+            },
+            {
+              "lang": "en",
+              "value": "Certainly, could you please help me with your name?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "2932ec1f-b5ac-4a1f-ba0a-e38a35b3c660",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phone-number",
+          "value": "$phone-number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Could you please tell me your contact number?"
+            },
+            {
+              "lang": "en",
+              "value": "What is your contact number?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "a69bd820-256e-4de0-9590-25e1d14d1fef",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "cust-email",
+          "value": "$cust-email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Could you please tell me your email I.D. ?"
+            },
+            {
+              "lang": "en",
+              "value": "Please tell me your Email I.D."
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "7c03956a-e1c3-4100-9c6a-4a662e742b4a",
+          "required": true,
+          "dataType": "@efi-product",
+          "name": "efi-product",
+          "value": "$efi-product",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which product are you facing this issue with?"
+            },
+            {
+              "lang": "en",
+              "value": "Could you please tell me which product you are having a problem with?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "de38246f-dd14-4fa4-bc7d-ce798f3c56f0",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "Cust-issue-sum",
+          "value": "$@sys.unit-information",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Could you please specify what the issue is exactly"
+            },
+            {
+              "lang": "en",
+              "value": "I apologize, could you please let me know what problem you are facing exactly?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "6ce9bf16-9ce4-4da9-9ff8-2b74f5cd83f7",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "cust-issue-desc",
+          "value": "$cust-issue-desc",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Would you mind elaborating on the issue please?"
+            },
+            {
+              "lang": "en",
+              "value": "Could you describe your problem in detail please?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you, Your issue has been logged. Someone will get in touch with you soon!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1533400458,
+  "fallbackIntent": false,
+  "events": []
+}

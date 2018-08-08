@@ -1,0 +1,46 @@
+{
+  "id": "b10dffe2-dff3-4548-b8fd-52b450c03d94",
+  "name": "Refund request",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "refund.request",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1b9f7325-3ed6-4a6e-b530-9c44e6b7110a",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "transactionid",
+          "value": "$transactionid",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you tell me transaction ID of the purchase you made?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I\u0027ve passed your request to our support team. They\u0027ll get back to you shortly."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496141742,
+  "fallbackIntent": false,
+  "events": []
+}

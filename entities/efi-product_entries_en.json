@@ -1,0 +1,33 @@
+[
+  {
+    "value": "Fiery",
+    "synonyms": [
+      "Fiery Server",
+      "Fierys",
+      "Fiery Printer",
+      "Fiery"
+    ]
+  },
+  {
+    "value": "CWS",
+    "synonyms": [
+      "CWS",
+      "Command Workstation"
+    ]
+  },
+  {
+    "value": "Pace",
+    "synonyms": [
+      "Pace",
+      "Pace MIS"
+    ]
+  },
+  {
+    "value": "Radius",
+    "synonyms": [
+      "Radius",
+      "Radius MIS",
+      "Radius System"
+    ]
+  }
+]

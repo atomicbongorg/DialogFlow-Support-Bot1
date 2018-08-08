@@ -1,0 +1,21 @@
+[
+  {
+    "value": "FedEx",
+    "synonyms": [
+      "FedEx",
+      "Federal Express"
+    ]
+  },
+  {
+    "value": "Xerox",
+    "synonyms": [
+      "Xerox"
+    ]
+  },
+  {
+    "value": "Ricoh",
+    "synonyms": [
+      "Ricoh"
+    ]
+  }
+]

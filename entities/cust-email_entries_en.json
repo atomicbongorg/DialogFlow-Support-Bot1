@@ -1,0 +1,39 @@
+[
+  {
+    "value": "abc@abc.com",
+    "synonyms": [
+      "abc@abc.com",
+      "xyz@abc.com"
+    ]
+  },
+  {
+    "value": "ankit@gmail.com",
+    "synonyms": [
+      "ankit@gmail.com",
+      "ankitbasu@gmail.com",
+      "ankit.basu@gmail.com"
+    ]
+  },
+  {
+    "value": "ankit@hotmail.com",
+    "synonyms": [
+      "ankit@hotmail.com",
+      "ankit@fedex.com",
+      "ankitbasu@msn.com"
+    ]
+  },
+  {
+    "value": "ankit.basu@gmail.com",
+    "synonyms": [
+      "ankit.basu@gmail.com",
+      "ankit.basu@yahoo.com"
+    ]
+  },
+  {
+    "value": "ankit_basu1@yahoo.com",
+    "synonyms": [
+      "ankit_basu1@yahoo.com",
+      "ankit_basu1@gmail.com"
+    ]
+  }
+]

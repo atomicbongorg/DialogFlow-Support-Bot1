@@ -1,0 +1,148 @@
+[
+  {
+    "id": "b2b8634c-5690-4a33-b183-76e0cef4ee81",
+    "data": [
+      {
+        "text": "ticket ",
+        "userDefined": false
+      },
+      {
+        "text": "44992",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1533386070
+  },
+  {
+    "id": "f5f85ffd-6c38-4679-bdfd-51ad6eb9fc21",
+    "data": [
+      {
+        "text": "Case ID ",
+        "userDefined": false
+      },
+      {
+        "text": "44992",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1533386070
+  },
+  {
+    "id": "9b5733d4-c0f4-48f3-ac86-943b63180b5a",
+    "data": [
+      {
+        "text": " about",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1533384458
+  },
+  {
+    "id": "161052ed-2db8-4150-a307-33767dcf4e2a",
+    "data": [
+      {
+        "text": "update about my ticket?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1533384458
+  },
+  {
+    "id": "fb8604b7-bf3b-4b2d-82f8-e14d9308b1f5",
+    "data": [
+      {
+        "text": "I want an update about my case",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1533384458
+  },
+  {
+    "id": "facfe0d6-eec8-4b5d-b993-b7355c4d7f7b",
+    "data": [
+      {
+        "text": "I need an update about my ",
+        "userDefined": false
+      },
+      {
+        "text": "Pace",
+        "alias": "efi-product",
+        "meta": "@efi-product",
+        "userDefined": false
+      },
+      {
+        "text": " defect",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1533384458
+  },
+  {
+    "id": "ae975798-c942-4ed3-85dc-736e4de780c6",
+    "data": [
+      {
+        "text": "I need an update about my issue",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1533384458
+  },
+  {
+    "id": "e7df1d4a-d89b-48aa-ac4c-7a78727649ef",
+    "data": [
+      {
+        "text": "Ticket Number ",
+        "userDefined": false
+      },
+      {
+        "text": "44992",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1533384458
+  },
+  {
+    "id": "f514b21c-0341-4936-8495-95ef690c6fef",
+    "data": [
+      {
+        "text": "Please tell me about ticket no. ",
+        "userDefined": false
+      },
+      {
+        "text": "44992",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1533384458
+  }
+]

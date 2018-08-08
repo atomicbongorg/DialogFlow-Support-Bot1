@@ -1,0 +1,28 @@
+{
+  "id": "a03afca9-a902-4b8b-a45d-62cd5c883012",
+  "name": "Knowledge.KnowledgeBase.MTgwMjE0MzUzODM4OTk3NTA0MDA",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "$Knowledge.Answer[1]"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1533199814,
+  "fallbackIntent": false,
+  "events": []
+}

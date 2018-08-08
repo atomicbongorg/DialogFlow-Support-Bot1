@@ -1,0 +1,65 @@
+{
+  "id": "fecc0885-e160-47c3-bf02-01ac9616ae6b",
+  "name": "Update-Ticket",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "26531dae-a98c-483a-9db9-ee756eca0893",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Could you please tell me the case I.D. ?"
+            },
+            {
+              "lang": "en",
+              "value": "Could you please tell me the ticket number?"
+            },
+            {
+              "lang": "en",
+              "value": "Certainly. Could you please help me with the ticket I.D. ?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "f57422f9-1e4b-4c7f-8f63-28c82b68a7ff",
+          "required": false,
+          "dataType": "@efi-product",
+          "name": "efi-product",
+          "value": "$efi-product",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "The issue has been verified and you should be able to have it working in the next release. We will keep you posted",
+            "The issue has been closed and the fix should be available in version 29 special 4-96"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1533534333,
+  "fallbackIntent": false,
+  "events": []
+}
